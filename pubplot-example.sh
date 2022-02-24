@@ -2,9 +2,9 @@
 
 plotscript="pubplot.py"
 plotpath="."
-outfile="elapsed-vs-load.eps"
-datafile1="data/loadsxtimeatpriority19.csv"
-datafile2="data/loadsxtimeatpriority18.csv"
+outfile="example1-latency-vs-load/elapsed-vs-load.eps"
+datafile1="example1-latency-vs-load/loadsxtimeatpriority19.csv"
+datafile2="example1-latency-vs-load/loadsxtimeatpriority18.csv"
 python $plotscript -g -a "font \"Helvetica,24\"" \
     -p 2 -f "postscript enhanced color" \
     -o $outfile \
